@@ -1,3 +1,7 @@
+## Getting dataset for Plot1.R
+
+household_power_consumption <- read.csv("C:/Users/SPRINGLE FAMILY/Desktop/Exploratory Data Analysis/household_power_consumption.txt", header=FALSE, sep=";")
+View(household_power_consumption)
 if(!file.exists("exdata-data-household_power_consumption.zip")) {
         temp <- tempfile()
         download.file("http://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",temp)
